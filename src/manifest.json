@@ -1,0 +1,10 @@
+{
+    "name": "Tab Auto Grouper",
+    "description": "Automatically group tabs by matching URL patterns",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage"]
+}
