@@ -1,10 +1,13 @@
 {
-    "name": "Tab Auto Grouper",
-    "description": "Automatically group tabs by matching URL patterns",
+    "name": "Nimious Tabs",
+    "description": "A tool to help with managing excessive tabs",
     "version": "0.1.0",
     "manifest_version": 3,
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage"]
+    "permissions": [
+        "storage",
+        "tabs"
+    ]
 }

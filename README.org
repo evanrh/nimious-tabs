@@ -1,11 +1,9 @@
-#+TITLE: Tab Auto Group Tool README
+#+TITLE: Nimious Tabs
 #+AUTHOR: Evan Hastings
 
-* Tab Auto Group
-A browser extension written in [[https://nim-lang.org/][Nim]] to help automatically group tabs in a browser.
+A browser extension written in [[https://nim-lang.org/][Nim]] to help manage excessive tabs in a browser.
 
-** Targeted Platforms
+* Targeted Platforms
 - Chrome 80+
-- Firefox
-** Building
+* Building
 /Put a nimble command here/
