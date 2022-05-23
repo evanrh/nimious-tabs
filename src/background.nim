@@ -1,4 +1,5 @@
 import std/[jsconsole, jsffi, sugar]
+import private/protocol
 
 var chrome {.importc, nodecl.}: JsObject
 
