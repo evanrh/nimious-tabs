@@ -7,8 +7,8 @@ type
   ## A named tab group that contains rules to match against browser tabs
 
   Settings* = ref object
-    version: string
-    groups: seq[TabGroup]
+    version*: string
+    groups*: seq[TabGroup]
 
 proc importFromString*(fileData: string): Settings =
   ## Deserialize settings data from a JSON encoded string
